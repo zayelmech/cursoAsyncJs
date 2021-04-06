@@ -5,7 +5,6 @@
     "main": "src/index.js",
     "scripts": {
         "callback": "node src/callback/index.js"
-
     },
     "keywords": [
         "callbacks",
@@ -13,5 +12,8 @@
         "async"
     ],
     "author": "Abdiel Carreño",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "xmlhttprequest": "^1.8.0"
+    }
 }
